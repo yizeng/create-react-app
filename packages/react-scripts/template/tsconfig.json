@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "src",
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "module": "es6",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "outDir": "ts-build",
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "target": "es6"
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "coverage",
+        "dist",
+        "tests",
+        "**/__tests__/*"
+    ]
+}
